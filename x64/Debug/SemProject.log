@@ -1,0 +1,20 @@
+﻿  Assembling xd.asm...
+xd.asm(39): error A2070: invalid instruction operands
+xd.asm(63): error A2070: invalid instruction operands
+xd.asm(68): error A2008: syntax error : exit
+xd.asm(70): error A2008: syntax error : main
+xd.asm(70): error A2088: END directive required at end of file
+xd.asm(29): error A2006: undefined symbol : WriteChar
+xd.asm(34): error A2006: undefined symbol : WriteChar
+xd.asm(35): error A2006: undefined symbol : Crlf
+xd.asm(40): error A2006: undefined symbol : WriteChar
+xd.asm(41): error A2006: undefined symbol : WriteString
+xd.asm(42): error A2006: undefined symbol : Crlf
+xd.asm(45): error A2006: undefined symbol : ReadInt
+xd.asm(49): error A2229: cannot use labels and 32-bit addressing in the same expression
+xd.asm(50): error A2229: cannot use labels and 32-bit addressing in the same expression
+xd.asm(64): error A2006: undefined symbol : WriteChar
+xd.asm(65): error A2006: undefined symbol : WriteString
+xd.asm(66): error A2006: undefined symbol : WriteString
+xd.asm(67): error A2006: undefined symbol : WriteString
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\xd.obj" /W3 /errorReport:prompt  /Taxd.asm" exited with code 1.
